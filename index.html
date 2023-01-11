@@ -565,30 +565,30 @@ An artswork can't be put at a price.<br> Artist drawing work is priceless.</p>
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
                             <input type="text" name="name" class="form-control" id="name" onkeyup=" validateName()" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <label id="name-error" class="bg-danger"></label>
+                            <label id="name-error" class="text-danger"></label>
                           </div>
                         </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
                             <input type="email" class="form-control" name="email" id="email" onkeyup="validateEmail()" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <label id="email-error"></label>
+                            <label class="text-danger" id="email-error"></label>
                           </div>
                         </div>
                         <div class="col-md-12 mb-3">
                             <div class="form-group">
                               <input type="text" class="form-control" name="subject" id="subject" onkeyup="validateSubject()" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                              <label id="subject-error"></label>
+                              <label class="text-danger" id="subject-error"></label>
                             </div>
                         </div>
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
                             <textarea class="form-control" name="message" rows="5" id="message" onkeyup="validateMessage()" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <label id="message-error"></label>
+                            <label class="text-danger" id="message-error"></label>
                           </div>
                         </div>
                         <div class="col-md-12">
                           <button type="submit" class="button button-a button-big button-rouded" onclick="return validateForm()">Send Message</button>
-                          <label id="submit-error" class="text-center"></label>
+                          <label class="text-danger" id="submit-error" class="text-center"></label>
                         </div>
                       </div>
                     </form>
