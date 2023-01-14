@@ -1263,3 +1263,11 @@ footer .credits a {
     bottom: 15px;
   }
 }
+.col-md-4{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 50px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
